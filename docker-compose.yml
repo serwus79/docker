@@ -6,9 +6,9 @@ services:
     ports:
       - 5000:5000
     devices:
-     - /dev/ttyUSB0:/dev/ttyUSB0
+      - /dev/ttyUSB0:/dev/ttyUSB0
     volumes:
-     - octoprint:/home/octoprint
+      - octoprint:/home/octoprint
 
 volumes:
   octoprint:
